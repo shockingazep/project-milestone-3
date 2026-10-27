@@ -1,0 +1,18 @@
+﻿using UnityEngine;
+public class EnemyTrigger : MonoBehaviour
+{
+    public GameObject projectile;
+    public SpriteRenderer enemySprite;
+    bool nearby;
+    float timer;
+    void Start() { enemySprite.enabled = false; }
+
+    private SpriteRenderer GetEnemySprite1()
+    {
+        return enemySprite;
+    }
+
+    void Update() { if (!nearby) return; enemySprite.enabled = true; timer += Time.deltaTime; if (timer >= 1f) { Instantiate(projectile, transform.position, Quaternion.identity); timer = 0f; } }
+    void OnTriggerEnter2D(Collider2D other) { if (other.CompareTag("Player")) nearby = true; }
+    void OnTriggerExit2D(Collider2D other) { if (other.CompareTag("Player")) { nearby = false; enemySprite.enabled = false; } }
+}

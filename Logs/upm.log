@@ -1,0 +1,33 @@
+[2026-10-27T21:39:37.693Z][INFO] Command-line: 'C:\\Program Files\\Unity\\Hub\\Editor\\6000.6.0f1\\Editor\\Data\\Resources\\PackageManager\\Server\\UnityPackageManager.exe' server -s 37916 --ipc-path Unity-Upm-37916 -l 2 --log-file 'C:\\Users\\ellio\\Downloads\\ContraAssets-v2 (1)/Logs/upm.log'
+[2026-10-27T21:39:37.753Z][INFO] IPC server started (IPC path=Unity-Upm-37916).
+[2026-10-27T21:39:37.753Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-37916.
+[2026-10-27T21:39:40.044Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-27T21:39:40.161Z][INFO] project:list-packages --> 200 (117 ms)
+[2026-10-27T21:39:40.324Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-10-27T21:39:40.334Z][INFO] config:project:get-registries --> 200 (10 ms)
+[2026-10-27T21:39:40.348Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-27T21:39:40.428Z][INFO] project:list-packages --> 200 (80 ms)
+[2026-10-27T21:39:42.474Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-27T21:39:42.525Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-27T21:39:42.577Z][INFO] project:list-packages --> 200 (103 ms)
+[2026-10-27T21:39:42.605Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-10-27T21:39:42.611Z][INFO] config:project:get-registries --> 200 (6 ms)
+[2026-10-27T21:39:42.617Z][INFO] project:list-packages --> 200 (92 ms)
+[2026-10-27T21:39:44.230Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-27T21:39:44.305Z][INFO] project:list-packages --> 200 (75 ms)
+[2026-10-27T21:39:46.781Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-27T21:39:47.099Z][INFO] project:list-packages --> 200 (318 ms)
+[2026-10-27T21:39:50.974Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-27T21:39:51.043Z][INFO] project:list-packages --> 200 (70 ms)
+[2026-10-27T21:39:51.059Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-10-27T21:39:51.062Z][INFO] config:project:get-registries --> 200 (4 ms)
